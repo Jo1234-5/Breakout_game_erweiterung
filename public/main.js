@@ -199,7 +199,7 @@ function draw() {
     y += dy;
 
     if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
-        playSound();
+        //playSound();
         dx = -dx;
     }
     if (y + dy < ballRadius) {
