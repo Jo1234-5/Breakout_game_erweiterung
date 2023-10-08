@@ -1,0 +1,17 @@
+{
+  "name": "brick-breaker-game",
+  "version": "1.0.0",
+  "description": "Breakout-Game",
+  "main": "server.js",
+  "author": "Johannes",
+  "scripts": {
+    "start": "npx nodemon"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
